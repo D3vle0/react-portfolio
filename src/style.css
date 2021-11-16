@@ -76,3 +76,9 @@ li:last-child {
   border-radius: 10px;
   margin-top: 12px;
 }
+
+@media screen and (max-width: 580px) {
+  ul {
+    width: 90vw
+  }
+}
