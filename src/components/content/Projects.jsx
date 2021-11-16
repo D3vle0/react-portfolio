@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-export default function Content3() {
+export default function Projects() {
     return (
       <motion.div
         layout

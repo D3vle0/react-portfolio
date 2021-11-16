@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Content1 from "./content/Content1";
+import Projects from "../content/Projects";
 import { motion, AnimatePresence } from "framer-motion";
 
-export default function Item1() {
+export default function Item2() {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleOpen = () => setIsOpen(!isOpen);
@@ -10,7 +10,7 @@ export default function Item1() {
     return (
         <motion.li layout onClick={toggleOpen} initial={{ borderRadius: 10 }} whileTap={{ scale: 0.95 }}>
             <motion.div className="avatar" layout />
-            <AnimatePresence>{isOpen && <Content1 />}</AnimatePresence>
+            <AnimatePresence>{isOpen && <Projects />}</AnimatePresence>
         </motion.li>
     );
 }

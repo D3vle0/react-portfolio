@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-export default function Content2() {
+export default function Experience() {
     return (
         <motion.div
             layout

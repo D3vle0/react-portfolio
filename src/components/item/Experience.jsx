@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Content4 from "./content/Content4";
+import Experience from "../content/Experience";
 import { motion, AnimatePresence } from "framer-motion";
 
-export default function Item4() {
+export default function Item2() {
     const [isOpen, setIsOpen] = useState(false);
 
     const toggleOpen = () => setIsOpen(!isOpen);
@@ -10,7 +10,7 @@ export default function Item4() {
     return (
         <motion.li layout onClick={toggleOpen} initial={{ borderRadius: 10 }} whileTap={{ scale: 0.95 }}>
             <motion.div className="avatar" layout />
-            <AnimatePresence>{isOpen && <Content4 />}</AnimatePresence>
+            <AnimatePresence>{isOpen && <Experience />}</AnimatePresence>
         </motion.li>
     );
 }

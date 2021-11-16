@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-export default function Content1() {
+export default function Profile() {
     return (
         <motion.div
             layout
