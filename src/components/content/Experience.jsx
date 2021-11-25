@@ -14,7 +14,7 @@ export default function Experience() {
             2nd place - JBU CTF 2020<br></br>
             6th place - The Hacking Championship Junior 2020<br></br>
             3rd place - WITHCON CTF 2021 Final<br></br>
-            3rd place - The Hacking Championship Junior 2021 Final<br></br>
+            2nd place - The Hacking Championship Junior 2021 Final<br></br>
         </motion.div>
     );
 }
